@@ -6,6 +6,8 @@ Discord: Denis (@shchegolenkov)
 
 GitHub: [@shchegolenkov](https://github.com/shchegolenkov)
 
+Telegram: [@shchegolenkov](https://t.me/shchegolenkov)
+
 ## About Me
 
 I have been working in an industrial automation systems engineering for the past five years and now i'm looking for new challenges.
