@@ -38,7 +38,7 @@ In process...
 
 - University: Nizhny Novgorod State Technical University, Electrical engineering
 - Courses:
-  - [HTML Academy](https://www.htmlacademy.ru)
+  - [HTML Academy](https://htmlacademy.ru)
   - [GLO Academy](https://glo.academy)
 
 ## English level
