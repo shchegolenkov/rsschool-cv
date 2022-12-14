@@ -5,7 +5,237 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    >
     <link rel="stylesheet" href="style.css">
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <nav class="header-nav">
+          <ul class="list header-list">
+            <li class="header-list__item">
+              <a href="#profile" class="link header-list__link">Profile</a>
+            </li>
+            <li class="header-list__item">
+              <a href="#contact" class="link header-list__link">Contact</a>
+            </li>
+            <li class="header-list__item">
+              <a href="#projects" class="link header-list__link">Projects</a>
+            </li>
+            <li class="header-list__item">
+              <a href="#education" class="link header-list__link">Education</a>
+            </li>
+            <li class="header-list__item">
+              <a href="#code" class="link header-list__link">Code</a>
+            </li>
+            <li class="header-list__item">
+              <a href="#languages" class="link header-list__link">Languages</a>
+            </li>
+            <li class="header-list__item">
+              <a href="#skills" class="link header-list__link">Skills</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <main>
+        <div class="avatar-block">
+          <img
+            class="avatar-block__image"
+            src="img/avatar.JPG"
+            alt="My photo"
+            width="300"
+          >
+          <div class="avatar-block__text">
+            <h1 class="avatar-block__name">Denis Shchegolenkov</h1>
+            <p class="avatar-block__description">Front-End Developer</p>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column left-column">
+            <section class="section contact-section">
+              <h2 class="section__header"><a id="contact">Contact</a></h2>
+              <ul class="list contact-list">
+                <li class="contact-list__item">
+                  <p class="name-text">Discord</p>
+                  <a
+                    href="https://discordapp.com/users/amorales#0549"
+                    class="link contact-link"
+                    >Denis (@shchegolenkov)</a
+                  >
+                </li>
+                <li class="contact-list__item">
+                  <p class="name-text">GitHub</p>
+                  <a
+                    href="https://github.com/shchegolenkov"
+                    class="link contact-link"
+                    >@shchegolenkov</a
+                  >
+                </li>
+                <li class="contact-list__item">
+                  <p class="name-text">Telegram</p>
+                  <a href="https://t.me/shchegolenkov" class="link contact-link"
+                    >@shchegolenkov</a
+                  >
+                </li>
+              </ul>
+            </section>
+            <section class="section education-section">
+              <h2 class="section__header"><a id="education">Education</a></h2>
+              <p class="name-text">University:</p>
+              <ul class="list education-list">
+                <li class="education-list__item">
+                  Nizhny Novgorod<br>State Technical University,<br>Electrical
+                  engineering
+                </li>
+              </ul>
+              <p class="name-text">Courses:</p>
+              <ul class="list education-list">
+                <li class="education-list__item">
+                  <a href="https://htmlacademy.ru" class="link">HTML Academy</a>
+                </li>
+                <li class="education-list__item">
+                  <a href="https://glo.academy" class="link">GLO Academy</a>
+                </li>
+              </ul>
+            </section>
+            <section class="section languages-section">
+              <h2 class="section__header"><a id="languages">Languages</a></h2>
+              <ul class="list languages-list">
+                <li class="languages-list__item">Russian — native</li>
+                <li class="languages-list__item">
+                  English — B1 (Intermediate)
+                </li>
+              </ul>
+            </section>
+          </div>
+          <div class="column right-column">
+            <section class="section profile-section">
+              <h2 class="section__header profile-section__header">
+                <a id="profile">Profile</a>
+              </h2>
+              <p class="profile-text">
+                I have been working in an industrial automation systems
+                engineering for the&nbsp;past five years and now i'm looking for
+                new challenges.
+              </p>
+              <p class="profile-text">
+                I am a motivated and hardworking person. My main aim is to
+                become a&nbsp;frontend developer is 2023.
+              </p>
+            </section>
+            <section class="section projects-section">
+              <h2 class="section__header">
+                <a id="projects">Experience & projects</a>
+              </h2>
+              <a
+                class="project-block"
+                href="https://shchegolenkov.github.io/tour-plan"
+                target="_blank"
+              >
+                <div class="project-text">
+                  <p class="project-name">Best Tour Plan</p>
+                  <p class="project-description">Adaptive main page</p>
+                </div>
+              </a>
+            </section>
+            <section class="section code-section">
+              <h2 class="section__header"><a id="code">Code example</a></h2>
+              <pre><code>function multiply(a, b) {
+  return a * b;
+}</code></pre>
+            </section>
+            <section class="section skills-section">
+              <h2 class="section__header"><a id="skills">Skills</a></h2>
+              <ul class="list skills-list">
+                <li class="skills-list__item">
+                  <span>HTML</span>
+                  <div class="score-block">
+                    <div class="score score-full"></div>
+                    <div class="score score-full"></div>
+                    <div class="score score-full"></div>
+                    <div class="score score-full"></div>
+                    <div class="score score-empty"></div>
+                  </div>
+                </li>
+                <li class="skills-list__item">
+                  <span>GitHub</span>
+                  <div class="score-block">
+                    <div class="score score-full"></div>
+                    <div class="score score-full"></div>
+                    <div class="score score-empty"></div>
+                    <div class="score score-empty"></div>
+                    <div class="score score-empty"></div>
+                  </div>
+                </li>
+                <li class="skills-list__item">
+                  <span>CSS</span>
+                  <div class="score-block">
+                    <div class="score score-full"></div>
+                    <div class="score score-full"></div>
+                    <div class="score score-full"></div>
+                    <div class="score score-empty"></div>
+                    <div class="score score-empty"></div>
+                  </div>
+                </li>
+                <li class="skills-list__item">
+                  <span>VS Code</span>
+                  <div class="score-block">
+                    <div class="score score-full"></div>
+                    <div class="score score-full"></div>
+                    <div class="score score-full"></div>
+                    <div class="score score-empty"></div>
+                    <div class="score score-empty"></div>
+                  </div>
+                </li>
+                <li class="skills-list__item">
+                  <span>Figma</span>
+                  <div class="score-block">
+                    <div class="score score-full"></div>
+                    <div class="score score-full"></div>
+                    <div class="score score-full"></div>
+                    <div class="score score-empty"></div>
+                    <div class="score score-empty"></div>
+                  </div>
+                </li>
+                <li class="skills-list__item">
+                  <span>Photoshop</span>
+                  <div class="score-block">
+                    <div class="score score-full"></div>
+                    <div class="score score-full"></div>
+                    <div class="score score-full"></div>
+                    <div class="score score-full"></div>
+                    <div class="score score-empty"></div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <p class="footer-copyright">&copy; 2022 made by Denis</p>
+        <div class="footer-logos">
+          <span class="footer-logos__github-logo">
+            <a href="https://github.com/shchegolenkov"
+              ><img src="img/github_logo.png" alt="GitHub logo" width="80"
+            ></a>
+          </span>
+          <span class="footer-logos__rsschool-logo">
+            <a href="https://rs.school/js"
+              ><img src="img/rs_school_js.svg" alt="RS School logo" width="80"
+            ></a>
+          </span>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
