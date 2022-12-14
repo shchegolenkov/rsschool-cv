@@ -1,0 +1,291 @@
+html {
+  scroll-padding-top: 80px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #4a4a4a;
+  scroll-padding-top: 100px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 900px;
+  position: relative;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+}
+
+.link::after {
+  position: absolute;
+  content: "";
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.link:hover::after {
+  background-color: #ffcb00;
+  transition: 0.3s;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section__header {
+  font-size: 24px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.section__header::after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: 50px;
+  height: 3px;
+  background-color: #ffcb00;
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+  margin-bottom: 70px;
+  background-color: #fff;
+  z-index: 100;
+  width: 100%;
+  box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 65px;
+}
+
+.header-list__link::after {
+  height: 2px;
+}
+
+.header-list__item {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.avatar-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.avatar-block__image {
+  border-radius: 50%;
+}
+
+.avatar-block__text {
+  margin-left: 60px;
+}
+
+.avatar-block__name {
+  margin: 0;
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 600;
+}
+
+.avatar-block__description {
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.column {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.name-text {
+  margin-bottom: 5px;
+}
+
+.contact-link {
+  font-size: 12px;
+}
+
+.profile-section__header {
+  position: relative;
+}
+
+.profile-section__header::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: -17px;
+  top: -6px;
+  border-radius: 50%;
+  background-color: #ffcb00;
+  z-index: -1;
+}
+
+.left-column {
+  width: 300px;
+}
+
+.right-column {
+  width: 540px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.education-list {
+  padding-left: 15px;
+}
+
+.education-list__item {
+  list-style-type: "— ";
+  margin-bottom: 5px;
+}
+
+.languages-list__item {
+  margin-bottom: 5px;
+}
+
+.project-block {
+  display: block;
+  width: 400px;
+  height: 241px;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.3),
+      rgba(204, 204, 204, 0.2)
+    ),
+    url("img/portfolio.jpg");
+  background-size: 430px;
+  background-position: center;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.2s ease-in-out;
+}
+
+.project-block:hover {
+  background-size: 490px;
+  transition: 0.2s ease-in-out;
+}
+
+.project-block::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.project-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 90px;
+  background-color: rgba(204, 204, 204, 0.2);
+}
+
+.project-text {
+  position: absolute;
+  bottom: 11px;
+  left: 55px;
+  z-index: 10;
+}
+
+.project-name {
+  color: #ffcb00;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+.project-description {
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 3px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 30px;
+  width: 200px;
+}
+
+.skills-list__item:nth-child(2n) {
+  padding-left: 50px;
+}
+
+.score {
+  display: inline-block;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin-left: 5px;
+}
+
+.score-full {
+  background-color: #ffcb00;
+}
+
+.score-empty {
+  background-color: #e1e1e1;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.footer-logos {
+  position: absolute;
+  right: 0px;
+}
+
+.footer-logos__github-logo {
+  margin-right: 30px;
+}
